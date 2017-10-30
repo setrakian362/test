@@ -17,6 +17,7 @@ from pylab import mpl   #画图显示中文
 mpl.rcParams['font.sans-serif'] = ['SimHei']
 mpl.rcParams['axes.unicode_minus'] = False
 
+
             
 factor = 'OPER_REV'#u'TOT_SHRHLDR_EQY_EXCL_MIN_INT'
 n_quantile = 3

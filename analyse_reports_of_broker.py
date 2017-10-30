@@ -6,6 +6,7 @@ Created on Fri Sep 01 10:33:39 2017
 """
 
 
+
 import pandas as pd
 import numpy as np
 import QUANTAXIS as QA
@@ -18,7 +19,7 @@ mpl.rcParams['font.sans-serif'] = ['SimHei']
 mpl.rcParams['axes.unicode_minus'] = False
 
 
-            
+
 factor = 'OPER_REV'#u'TOT_SHRHLDR_EQY_EXCL_MIN_INT'
 n_quantile = 3
 ret_range = 20
